@@ -1,0 +1,14 @@
+h1
+{
+font-size: 70px;
+font-style: sans-serif;
+font-family:  Consolas, sans-serif;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+}
+
+
+body
+{
+    background-color: rgb(55,132,240);
+}
