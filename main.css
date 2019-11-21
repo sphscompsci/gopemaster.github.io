@@ -11,6 +11,7 @@ text-shadow: 2px 2px 4px #000000;
 
 h2
 {
+font-size: 65px;
 font-style: sans-serif;
 font-family: Consolas, sans-serif;
 color: white;
@@ -19,6 +20,7 @@ color: white;
 
 h3
 {
+font-size: 50px
 font-style: sans-serif;
 font-family: Consolas, sans-serif;
 color: white;
@@ -26,6 +28,6 @@ color: white;
 
 body
 {
-    background-color: rgb(134, 235, 52);
+    background-color: rgb(30, 31, 43);
 
 }
