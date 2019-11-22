@@ -43,10 +43,10 @@ background-size: cover;
 }
   
 
-  .img1 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/alps_bg.jpg); }
-  .img2 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/mountain_eagle.jpg); }
-  .img3 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/mountain_range.jpg); }
-  .img4 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/mountain_sunrise.jpg); }
+  .img1 { background-image: url(alps_bg.jpg); }
+  .img2 { background-image: url(mountain_eagle.jpg); }
+  .img3 { background-image: url(mountain_range.jpg); }
+  .img4 { background-image: url(mountain_sunrise.jpg); }
   
   /* Position text in the middle of the page/image */
   .button 
