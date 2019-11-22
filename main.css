@@ -32,9 +32,7 @@ margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 }
   
-{
-box-sizing: border-box;
-}
+
   
 .bg-image 
 {   
@@ -45,19 +43,20 @@ background-size: cover;
 }
   
 
-  .img1 { background-image: url(alps_bg.jpg); }
-  .img2 { background-image: url(mountain_eagle.jpg); }
-  .img3 { background-image: url(mountain_range.jpg); }
-  .img4 { background-image: url(mountain_sunrise.jpg); }
+  .img1 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/alps_bg.jpg); }
+  .img2 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/mountain_eagle.jpg); }
+  .img3 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/mountain_range.jpg); }
+  .img4 { background-image: url(C:/Users/Mihir/Desktop/Root/Assets/Static/mountain_sunrise.jpg); }
   
   /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  .button 
+  {
+    background-color: rgb(253, 0, 139); /* Fallback color */
+    background-color: rgba(253, 0, 139, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
     font-size: 80px;
-    border: 10px solid #f1f1f1;
+    border: 15px solid #f1f1f1;
     position: fixed; /* Stay fixed */
     top: 50%;
     left: 50%;
@@ -66,5 +65,12 @@ background-size: cover;
     width: 300px;
     padding: 20px;
     text-align: center;
+    transition: 0.5s;
 }
 
+.button:hover 
+{
+    background-color: rgb(253, 0, 139); 
+    box-shadow: 2px 2px 4px #201f1f;
+    text-shadow: 1px 1px 2px #201f1f;
+}
