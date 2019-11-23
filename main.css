@@ -56,13 +56,13 @@ background-size: cover;
     color: white;
     font-weight: bold;
     font-size: 80px;
-    border: 15px solid #f1f1f1;
+    border: 10px solid #f1f1f1;
     position: fixed; /* Stay fixed */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 300px;
+    width: 400px;
     padding: 20px;
     text-align: center;
     transition: 0.5s;
