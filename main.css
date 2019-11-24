@@ -56,23 +56,23 @@ background-size: cover;
     background-color: rgba(253, 0, 139, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     border: 7px solid #f1f1f1;
     position: fixed; /* Stay fixed */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 350px;
+    width: 250px;
     padding: 20px;
     text-align: center;
-    transition: all 0.4s;
+    transition: all 0.5s;
     cursor: pointer;
 }
 
 .button:hover 
 {
     background-color: rgb(253, 0, 139); 
-    box-shadow: 2px 2px 4px #201f1f;
+    box-shadow: 3px 3px 5px #201f1f;
     text-shadow: 1px 1px 2px #201f1f;
 }
