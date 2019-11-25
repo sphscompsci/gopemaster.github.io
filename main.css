@@ -81,9 +81,11 @@ background-size: cover;
 {
   position: fixed;
   z-index: 1;
+  width: auto;
+  height: auto;
 }
 
-@media (min-aspect-ratio: 16/9)
+/*@media (min-aspect-ratio: 16/9)
 {
   .vidbg
     {
@@ -99,6 +101,6 @@ background-size: cover;
       width: auto;
       height: 100%;
     }
-}
+}*/
 
 
