@@ -81,7 +81,6 @@ background-size: cover;
 {
   position: fixed;
   z-index: 1;
-  position: absolute;
 }
 
 @media (min-aspect-ratio: 16/9)
