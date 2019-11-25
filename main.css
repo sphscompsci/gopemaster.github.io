@@ -110,5 +110,6 @@ background-size: cover;
 bottom; 0; 
 color: white;
 font-family: Roboto, sans-serif;
+z-index: 4;
 }
 
