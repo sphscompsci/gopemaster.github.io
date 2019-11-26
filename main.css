@@ -87,7 +87,7 @@ background-size: cover;
   z-index: 1;
 }
 
-/*@media (min-aspect-ratio: 16/9)
+@media (min-aspect-ratio: 16/9)
 {
   .vidbg
     {
@@ -103,7 +103,7 @@ background-size: cover;
       width: auto;
       height: 100%;
     }
-}*/
+}
 
 .info
 {
