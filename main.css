@@ -1,29 +1,4 @@
-h1
-{
-font-size: 70px;
-font-style: sans-serif;
-font-family:  Lexend Deca, sans-serif;
-color: white;
-text-shadow: 2px 2px 4px #000000;
-}
 
-
-h2
-{
-font-size: 45px;
-font-style: sans-serif;
-font-family: Roboto, sans-serif;
-color: white;
-}
-
-
-h3
-{
-font-size: 30px
-font-style: sans-serif;
-font-family: Roboto, sans-serif;
-color: white;
-}
 
 body, html 
 {
@@ -32,7 +7,7 @@ width: 100vw;
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(0, 0, 0);
-z-index: -2;
+z-index: 1;
 }
   
 
@@ -106,7 +81,7 @@ background-size: cover;
 .info
 {
 bottom; 0; 
-color: pink;
+color: blue;
 font-family: Roboto, sans-serif;
 z-index: 4;
 }
