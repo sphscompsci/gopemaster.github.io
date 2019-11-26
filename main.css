@@ -32,6 +32,7 @@ width: 100vw;
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(0, 0, 0);
+z-index: -2;
 }
   
 
