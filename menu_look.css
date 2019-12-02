@@ -1,0 +1,83 @@
+body
+{
+    background-color: rgb(250, 123, 64);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(33, 33, 33);
+    font-family: Oxygen, sans-serif;
+    top: 0;
+    bottom: 0;
+    box-shadow:  0px 10px 10px -20px #474747;
+    border-radius: 50px;
+}
+
+.navbar a{ /*Home and CS Club*/
+    float: left;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    min-width: 150px;
+}
+
+.games-dropdown{
+    float: left;
+    overflow: hidden;
+    min-width: 150px;
+}
+
+.games-dropdown .dropbtn{ /*Games tab*/
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 22px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    min-width: 150px;
+}
+
+.navbar a:hover, .games-dropdown:hover .dropbtn { 
+    background-color: rgba(40, 44, 48, 0.705);
+    color: rgb(255, 167, 211); /*All options in Navbar ie CSC, Hm, Gope etc*/
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.dropdown-content a { /*Gope^tm text*/
+    float: none;
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center; 
+    min-width: 150px;
+}
+
+.dropdown-content a:hover { /*Madlib text*/
+    background-color: #ddd;
+    max-width: 150px;
+    color: rgb(206, 37, 37); /* color change of Madlib upon hover*/
+    text-align: center;
+}
+
+.games-dropdown:hover .dropdown-content {
+    display: block;
+    overflow: hidden;
+
+    
+}
